@@ -80,7 +80,7 @@ const IndexPage = () => {
     <main style={pageStyles}>
       <title>Home Page</title>
       <h1 style={headingStyles}>
-        Congratulations
+        Congratulations!!!
         <br />
       </h1>
     </main>
