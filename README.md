@@ -47,4 +47,12 @@ _./src/styles/global.css_
 create _gatsby-browser.js_
 
 ```js
+import './src/styles/global.css'
+```
+
+
+- install plugins
+```bash
+
+yarn add gatsby-source-filesystem gatsby-transformer-remark
 ```

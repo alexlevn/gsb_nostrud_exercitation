@@ -3,7 +3,7 @@ import React from 'react'
 
 const link = {
   textDecoration: 'none',
-  color: '#333333',
+  color: 'green',
   fontSize: '1.1em',
   boxShadow: 'none',
   marginLeft: '10px',
@@ -14,19 +14,18 @@ const Layout = ({ location, title, children }) => {
 
   console.log('pathname = ', location.pathname)
   const header = (
-    <h1
-      style={{
-        color: '#333333',
-        marginTop: 0,
-        backgroundColor: 'lightyellow',
-      }}
-    >
-      <Link to={'/'}>{title}</Link>
+    <h1>
+      <Link to={'/'} style={link}>
+        {title}
+      </Link>
     </h1>
   )
   return (
-    <div>
-      <header>{header}</header>
+    <div className="m-5 bg-gray-100 p-5 rounded-md border-0 border-gray-300 drop-shadow-xl">
+      <header>
+        {header}
+        <title>Home Page</title>
+      </header>
       <div>rootPath: {rootPath}</div>
 
       <main>{children}</main>
