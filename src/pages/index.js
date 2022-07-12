@@ -16,6 +16,8 @@ const IndexPage = ({ data, location }) => {
           daily.dev
         </h1>
         <Link to = "/first-post">First Post</Link>
+        <Link to = "/sitemap/sitemap-index.xml">Site Map</Link>
+
       </main>
     </Layout>
   )
