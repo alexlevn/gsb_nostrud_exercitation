@@ -1,4 +1,4 @@
-import { graphql } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 import * as React from 'react'
 import Layout from '../components/layout'
 
@@ -15,6 +15,7 @@ const IndexPage = ({ data, location }) => {
         <h1 className="text-xl font-normal no-underline text-red-400">
           daily.dev
         </h1>
+        <Link to = "/first-post">First Post</Link>
       </main>
     </Layout>
   )
