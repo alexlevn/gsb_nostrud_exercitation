@@ -1,28 +1,19 @@
-import { graphql } from 'gatsby'
+import GatsbyLink from 'gatsby-link'
 import React from 'react'
-// import Helmet from 'react-helmet'
 
-const Template = ({ data }) => {
-  const { markdownRemark: post } = data
-  // const post = data.markdownRemark;
+const Template = (props) => {
+  console.log('Template:')
 
+  console.log('props = ', props)
+  console.log('pageResources = ', props.pageResources)
+  console.log('path = ', props.pageResources.page.path)
   return (
     <div>
-      <h3>{post.frontmatter.title}</h3>
+      Template:
+      <p>{props.pageResources.page.path}</p>
+      <GatsbyLink to="/">Home</GatsbyLink>
     </div>
   )
 }
 
 export default Template
-
-export const postQuery = graphql`
-  query BlogPostByPath($path: String!) {
-    markdownRemark(frontmatter: { path: { eq: $path } }) {
-      html
-      frontmatter {
-        path
-        title
-      }
-    }
-  }
-`
