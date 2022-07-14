@@ -6,7 +6,7 @@ const IndexPage = ({ data, location }) => {
   // const siteTitle = data.site.siteMetadata.title
   // const posts = data.allMarkdownRemark.edges
 
-  // console.log('data = ', data)
+  console.log('data = ', data)
 
   return (
     <Layout title={'Overreacted'} location={location}>
