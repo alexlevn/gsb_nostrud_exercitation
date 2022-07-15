@@ -19,9 +19,16 @@ const IndexPage = ({ data }) => {
       <p>
         <Link to="/def">def</Link>
       </p>
-      <p>
-        <Link to="/sitemap/sitemap-index.xml">Site Map</Link>
-      </p>
+      <div>
+        Posts:
+        {data.allMarkdownRemark.edges.map((post) => (
+          <div key={post.node.id}>
+            <Link to={post.node.frontmatter.path}>
+              {post.node.frontmatter.title}
+            </Link>
+          </div>
+        ))}
+      </div>
     </main>
   )
 }

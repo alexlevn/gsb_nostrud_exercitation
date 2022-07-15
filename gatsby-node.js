@@ -25,25 +25,18 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
       return Promise.reject(res.errors)
     }
 
-    ;['abc', 'def'].forEach((path) => {
+    ;['abc', 'def', 'ghk'].forEach((path) => {
       createPage({
         path: path,
         component: postTemplate,
       })
     })
+
+    res.data.allMarkdownRemark.edges.forEach(({ node }) => {
+      createPage({
+        path: node.frontmatter.path,
+        component: postTemplate,
+      })
+    })
   })
 }
-// const path = require('path');
-
-// exports.createPages = ({boundActionCreators, graphql}) => {
-//   const {createPage} = boundActionCreators;
-
-//   return ["abc", "def"].map(name => {
-//     createPage({
-//       path: name,
-//       // component: path.resolve('./src/templates/post.js'),
-//       component: () => <div>Hello component: ${name}</div>,
-//     })
-//   }
-
-// }
