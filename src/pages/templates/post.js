@@ -6,9 +6,13 @@ const Template = ({ data }) => {
   const { markdownRemark: post } = data
   // const post = data.markdownRemark;
 
+  // console.log('post = ', post)
+  console.log('data = ', data)
+
   return (
     <div>
-      <h3>{post.frontmatter.title}</h3>
+      {/* <h3>{post.frontmatter.title}</h3> */}
+      Template file
     </div>
   )
 }
@@ -19,10 +23,6 @@ export const postQuery = graphql`
   query BlogPostByPath($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
-      frontmatter {
-        path
-        title
-      }
     }
   }
 `
