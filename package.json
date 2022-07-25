@@ -1,22 +1,46 @@
 {
-  "name": "my-first-gatsby-site-4.0",
+  "name": "gatsby-site-blog",
   "version": "1.0.0",
   "private": true,
-  "description": "my-first-gatsby-site-4.0",
+  "description": "blog",
   "author": "Alex Lee",
   "keywords": [
     "gatsby"
   ],
   "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
     "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   },
   "dependencies": {
     "gatsby": "^4.19.2",
     "react": "^18.1.0",
-    "react-dom": "^18.1.0"
+    "react-dom": "^18.1.0",
+    "gatsby-plugin-feed": "^4.18.1",
+    "gatsby-plugin-gatsby-cloud": "^4.18.1",
+    "gatsby-plugin-google-analytics": "^4.18.0",
+    "gatsby-plugin-image": "^2.18.1",
+    "gatsby-plugin-manifest": "^4.18.1",
+    "gatsby-plugin-offline": "^5.18.1",
+    "gatsby-plugin-react-helmet": "^5.18.0",
+    "gatsby-plugin-sharp": "^4.18.1",
+    "gatsby-remark-copy-linked-files": "^5.18.0",
+    "gatsby-remark-images": "^6.18.1",
+    "gatsby-remark-prismjs": "^6.18.0",
+    "gatsby-remark-responsive-iframe": "^5.18.0",
+    "gatsby-remark-smartypants": "^5.18.0",
+    "gatsby-source-filesystem": "^4.18.1",
+    "gatsby-transformer-remark": "^5.18.1",
+    "gatsby-transformer-sharp": "^4.18.1",
+    "prismjs": "^1.28.0",
+    "react-helmet": "^6.1.0",
+    "typeface-merriweather": "0.0.72",
+    "typeface-montserrat": "0.0.75"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1"
   }
 }
