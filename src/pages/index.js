@@ -1,4 +1,4 @@
-import { graphql } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 import * as React from 'react'
 import Layout from '../components/layout'
 
@@ -24,11 +24,25 @@ const IndexPage = ({ data, location }) => {
       {posts.map((post) => {
         const title = post.frontmatter.title || post.fields.slug
         return (
-          <div key={post.fields.slug}>
-            <h4 className="text-pc-yellow font-medium text-2xl font-mont">{title}</h4>
+          <div
+            key={post.fields.slug}
+            className="my-10 shadow-lg shadow-gray-800 rounded-md py-6 px-3 bg-pc-darker"
+          >
+            <div className="flex justify-between items-center ">
+              <Link to={post.fields.slug}>
+                <div className="text-pc-yellow font-medium text-2xl font-sans hover:text-pc-pink cursor-pointer debug">
+                  {title}
+                </div>
+              </Link>
 
-            <div>{post.frontmatter.date}</div>
-            <div>{post.excerpt}</div>
+              <div className="flex justify-items items-center">
+                <div className="text-sm text-gray-600">
+                  {post.frontmatter.date}
+                </div>
+              </div>
+            </div>
+
+            <div className="mt-2 text-pc-light">{post.excerpt}</div>
           </div>
         )
       })}

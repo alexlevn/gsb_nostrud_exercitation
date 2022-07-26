@@ -64,20 +64,23 @@
   --fontSize-5: 2.074rem;
   --fontSize-6: 2.488rem;
   --fontSize-7: 2.986rem;
-  /*--color-primary: #005b99;*/
-  --color-primary: #efbb35;
-  /*
+  --color-primary: #005b99;
   --color-text: #2e353f;
   --color-text-light: #4f5969;
   --color-heading: #1a202c;
   --color-heading-black: black;
   --color-accent: #d1dce5;
-  */
+  
+  /*
+  // customs colors
+
+  --color-primary: #efbb35;
   --color-text: #F9EBD7;
   --color-text-light: #4f5969;
   --color-heading: #1a202c;
   --color-heading-black: black;
   --color-accent: #d1dce5;
+  */
 }
 
 /* HTML elements */
