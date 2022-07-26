@@ -1,5 +1,6 @@
 import { Link } from 'gatsby'
 import * as React from 'react'
+import Bio from './bio'
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
@@ -29,10 +30,16 @@ const Layout = ({ location, title, children }) => {
         data-is-root-path={isRootPath}
       >
         <header className="global-header">{header}</header>
+        <Bio />
         <main>{children}</main>
-        <footer>
+        <footer className="text-pc-light">
           @ {new Date().getFullYear()}, Personal blog by {` `}
-          <a href="https://www.gatsbyjs.com" target="_blank" rel="noreferrer">
+          <a
+            href="https://www.gatsbyjs.com"
+            target="_blank"
+            rel="noreferrer"
+            className="font-extrabold font-mont text-pc-yellow"
+          >
             Alex Lee
           </a>
         </footer>

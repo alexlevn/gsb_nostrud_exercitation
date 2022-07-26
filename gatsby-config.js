@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Over 9 - Dev`,
+    title: `boy-Over-9`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `boy-Over-9`,
+      summary: `Eat, sleep, code, Judo repeat...`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://test.alexle.info/`,
+    description: `Just a blog writing & share tips and tricks for newbie dev.`,
+    siteUrl: `https://alexle.info/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `thanhdungvn`,
     },
   },
   plugins: [

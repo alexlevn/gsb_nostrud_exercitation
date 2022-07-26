@@ -20,6 +20,7 @@ const IndexPage = ({ data, location }) => {
   }
   return (
     <Layout location={location} title={siteTitle}>
+
       <br />
       {posts.map((post) => {
         const title = post.frontmatter.title || post.fields.slug
