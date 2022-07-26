@@ -13,9 +13,9 @@ const IndexPage = ({ data, location }) => {
         const title = post.frontmatter.title || post.fields.slug
         return (
           <div key={post.fields.slug}>
-            <h2>{title}</h2>
-            <p>{post.frontmatter.date}</p>
-            <p>{post.excerpt}</p>
+            <h4>{title}</h4>
+            <div>{post.frontmatter.date}</div>
+            <div>{post.excerpt}</div>
           </div>
         )
       })}
