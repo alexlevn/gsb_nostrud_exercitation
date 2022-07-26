@@ -6,6 +6,18 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    colors: {
+      'pc-darker': '#191a21',
+      'pc-dark': '#1F2028',
+      'pc-light': '#F9EBD7',
+      'pc-yellow': '#EFBB35',
+    },
+    fontFamily: {
+      sans: ['Graphik', 'sans-serif'],
+      serif: ['Merriweather', 'serif'],
+      mont: ['Montserrat', 'sans-serif'],
+      nunito: ['Nunito', 'sans-serif'],
+    },
   },
   plugins: [],
 }

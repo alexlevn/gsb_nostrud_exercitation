@@ -1,6 +1,8 @@
 import * as React from 'react'
 
 const BlogPostTemplate = ({ data, location }) => {
+
+  
   return (
     <div>
       Template:
