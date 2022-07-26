@@ -1,12 +1,13 @@
 import { graphql } from 'gatsby'
 import * as React from 'react'
+import Layout from '../components/layout'
 
 const IndexPage = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const posts = data.allMarkdownRemark.nodes
 
   return (
-    <main>
+    <Layout location={location}>
       Home Page !
       <br />
       {posts.map((post) => {
@@ -19,7 +20,7 @@ const IndexPage = ({ data, location }) => {
           </div>
         )
       })}
-    </main>
+    </Layout>
   )
 }
 
