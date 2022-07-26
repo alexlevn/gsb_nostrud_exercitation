@@ -20,7 +20,6 @@ const IndexPage = ({ data, location }) => {
   }
   return (
     <Layout location={location} title={siteTitle}>
-
       <br />
       {posts.map((post) => {
         const title = post.frontmatter.title || post.fields.slug
@@ -31,13 +30,13 @@ const IndexPage = ({ data, location }) => {
           >
             <div className="flex justify-between items-center ">
               <Link to={post.fields.slug}>
-                <div className="text-pc-yellow font-medium text-2xl font-sans hover:text-pc-pink cursor-pointer debug">
+                <div className="text-pc-yellow font-medium md:text-2xl  font-sans hover:text-pc-pink cursor-pointer debug">
                   {title}
                 </div>
               </Link>
 
-              <div className="flex justify-items items-center">
-                <div className="text-sm text-gray-600">
+              <div className="flex justify-items items-center ">
+                <div className="text-sm text-gray-600 whitespace-nowrap">
                   {post.frontmatter.date}
                 </div>
               </div>
