@@ -8,32 +8,37 @@ const BlogPostTemplate = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
   const { previous, next } = data
 
+  const nav = (
+    <div className="flex justify-between gap-5">
+      {previous ? (
+        <div className="bg-pc-darker m-5 rounded-md  w-1/2">
+          <Link href="#" to={previous.fields.slug} rel="prev">
+            <a className="text-pc-light hover:text-pc-pink inline-block">
+              ← {previous.frontmatter.title}
+            </a>
+          </Link>
+        </div>
+      ) : (
+        <div />
+      )}
+      {next ? (
+        <div className="bg-pc-darker m-5 rounded-md w-1/2">
+          <Link to={next.fields.slug} href="#" rel="next">
+            <a className="text-pc-light hover:text-pc-pink">
+              {next.frontmatter.title} →
+            </a>
+          </Link>
+        </div>
+      ) : (
+        <div />
+      )}
+    </div>
+  )
+
   return (
     <Layout location={location} title={siteTitle}>
+      {nav}
       <article className="text-pc-light">
-        
-          <div className="grid gap-4">
-            <div className="bg-pc-darker rounded-md col-span-1 col-auto">
-              {previous && (
-                <Link to={previous.fields.slug} rel="prev">
-                  ← {previous.frontmatter.title}
-                </Link>
-              )}
-            </div>
-            <div className="bg-pc-darker rounded-md col-span-1">
-              {next && (
-                <Link to={next.fields.slug} rel="next">
-                  {next.frontmatter.title} →
-                </Link>
-              )}
-            </div>
-          </div>
-
-          <div className='mt-10 block'>
-            Hello
-          </div>
-        
-
         <header>
           <h1 className="text-3xl font-medium text-pc-yellow">
             {post.frontmatter.title}
@@ -52,24 +57,7 @@ const BlogPostTemplate = ({ data, location }) => {
           <Bio />
         </footer>
 
-        <nav className="blog-post-nav">
-          <ul>
-            <li>
-              {previous && (
-                <Link to={previous.fields.slug} rel="prev">
-                  ← {previous.frontmatter.title}
-                </Link>
-              )}
-            </li>
-            <li>
-              {next && (
-                <Link to={next.fields.slug} rel="next">
-                  {next.frontmatter.title} →
-                </Link>
-              )}
-            </li>
-          </ul>
-        </nav>
+        {nav}
       </article>
     </Layout>
   )

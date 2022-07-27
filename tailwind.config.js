@@ -17,6 +17,7 @@ module.exports = {
       'pc-darker': '#191a21',
       'pc-dark': '#1F2028',
       'pc-light': '#F9EBD7',
+      'cc-yellow': '#CAF17C',
       'pc-yellow': '#EFBB35',
       'pc-pink': '#FFA7C4',
       inherit: colors.inherit,

@@ -4,6 +4,7 @@ import * as React from 'react'
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
   const isRootPath = location.pathname === rootPath
+  const visibleSidebar = false
   let header
 
   if (isRootPath) {
@@ -53,34 +54,39 @@ const Layout = ({ location, title, children }) => {
         >
           <div className="my-5 md:my-10">{header}</div>
 
-          <div className="md:flex hidden">
-            <div className="menu-item mr-5">Snippets Code</div>
-            <div className="menu-item lg:text-red-500 mr-5">Javascript</div>
-            <div className="menu-item mr-5">Golang</div>
-            <div className="menu-item">Demo</div>
-          </div>
+          {visibleSidebar && (
+            <>
+              <div className="md:flex hidden">
+                <div className="menu-item mr-5">Snippets Code</div>
+                <div className="menu-item lg:text-red-500 mr-5">Javascript</div>
+                <div className="menu-item mr-5">Golang</div>
+                <div className="menu-item">Demo</div>
+              </div>
 
-          <div className="md:hidden sm:inline-block">
-            <svg
-              className="w-6 h-6"
-              data-darkreader-inline-stroke=""
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M4 6h16M4 12h16M4 18h16"
-              ></path>
-            </svg>
-          </div>
+              <div className="md:hidden sm:inline-block">
+                <svg
+                  className="w-6 h-6"
+                  data-darkreader-inline-stroke=""
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M4 6h16M4 12h16M4 18h16"
+                  ></path>
+                </svg>
+              </div>
+            </>
+          )}
         </div>
 
         {/* MAIN CONTENTS */}
-        <div className="mx-5 pt-5 md:pt-16">{children}</div>
+
+        <div className="mx-5 pt-5 md:pt-16 overflow-hidden ">{children}</div>
 
         {/* FOOTER */}
         <footer className="text-pc-light mx-5">
