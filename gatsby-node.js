@@ -113,3 +113,48 @@ exports.createSchemaCustomization = ({ actions }) => {
     }
   `)
 }
+
+
+// Change the build folder to "public"
+// This way the build folder will be accessible from the browser
+// and the "gatsby-plugin-offline" plugin will work
+// exports.onCreateWebpackConfig = ({
+//   actions,
+//   stage,
+//   getConfig,
+//   loaders,
+//   plugins,
+//   webpack,
+// }) => {
+//   const config = getConfig()
+//   const { rules } = config.module
+
+//   if (stage === `build-html`) {
+//     rules.push({
+//       test: /\.js$/,
+//       include: path.resolve(__dirname, `src`),
+//       use: [loaders.jsCacheLoader],
+//     })
+//   }
+// }
+
+const path = require("path")
+const fs = require("fs")
+
+exports.onPreInit = () => {
+  if (process.argv[2] === "build") {
+    fs.rmdirSync(path.join(__dirname, "docs"), { recursive: true })
+    fs.renameSync(
+      path.join(__dirname, "public"),
+      path.join(__dirname, "public_dev")
+    )
+  }
+}
+
+exports.onPostBuild = () => {
+  fs.renameSync(path.join(__dirname, "public"), path.join(__dirname, "docs"))
+  fs.renameSync(
+    path.join(__dirname, "public_dev"),
+    path.join(__dirname, "public")
+  )
+}
