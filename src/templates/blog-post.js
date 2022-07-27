@@ -3,12 +3,19 @@ import * as React from 'react'
 import Layout from '../components/layout'
 
 const BlogPostTemplate = ({ data, location }) => {
-  // const post = data.markdownRemark
+  const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata.title
 
   return (
     <Layout location={location} title={siteTitle}>
-      Template: hello
+      <article className='text-pc-light'>
+        <header>
+          <h1 className='text-3xl font-medium text-pc-yellow'>{post.frontmatter.title}</h1>
+          <p>{post.frontmatter.date}</p>
+        </header>
+
+        <section dangerouslySetInnerHTML={{ __html: post.html }} />
+      </article>
     </Layout>
   )
 }

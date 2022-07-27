@@ -11,3 +11,7 @@
 .debug * {
   outline: 1px solid pink;
 }
+
+a {
+  color: #efbb35;
+}
