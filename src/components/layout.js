@@ -1,6 +1,9 @@
-import { Link } from 'gatsby'
+import { Link, useStaticQuery, graphql } from 'gatsby'
+import { StaticImage } from 'gatsby-plugin-image'
 import * as React from 'react'
 import Bio from './bio'
+
+// import {  } from 'gatsby'
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
@@ -89,8 +92,7 @@ const Layout = ({ location, title, children }) => {
         </div>
 
         <Bio />
-        <div>Hello</div>
-        {/* <div className='debug'>{children}</div> */}
+        <div className="m-0">{children}</div>
         <footer className="text-pc-light">
           @ {new Date().getFullYear()}, Personal blog by {` `}
           <a
