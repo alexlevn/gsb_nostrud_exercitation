@@ -1,5 +1,6 @@
 import { graphql, Link } from 'gatsby'
 import * as React from 'react'
+import Bio from '../components/bio'
 import Layout from '../components/layout'
 
 const IndexPage = ({ data, location }) => {
@@ -20,7 +21,8 @@ const IndexPage = ({ data, location }) => {
   }
   return (
     <Layout location={location} title={siteTitle}>
-      <br />
+      <Bio />
+
       {posts.map((post) => {
         const title = post.frontmatter.title || post.fields.slug
         return (

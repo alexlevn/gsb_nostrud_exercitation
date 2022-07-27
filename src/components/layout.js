@@ -1,14 +1,10 @@
 import { Link } from 'gatsby'
 import * as React from 'react'
-import Bio from './bio'
-
-// import {  } from 'gatsby'
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
   const isRootPath = location.pathname === rootPath
   let header
-  // const [visibleMenu, setVisibleMenu] = React.useState(false)
 
   if (isRootPath) {
     header = (
@@ -26,30 +22,36 @@ const Layout = ({ location, title, children }) => {
     )
   } else {
     header = (
-      <Link to="/" className="text-pc-yellow">
-        {title}
-      </Link>
+      <div>
+        <Link to="/" className="text-pc-pink font-semibold text-2xl">
+          {title}
+        </Link>
+        <div className="text-xs font-normal font-nunito text-center text-gray-300">
+          == write
+          <span className="text-red-500"> & </span>
+          share ==
+        </div>
+      </div>
     )
   }
 
   return (
     <div className="bg-pc-darker min-h-screen text-pc-light ">
       <div
-        className="global-wrapper bg-pc-dark min-h-screen relative "
+        className="max-w-4xl m-auto bg-pc-dark min-h-screen relative  md:pt-24 pt-24"
         data-is-root-path={isRootPath}
       >
+        {/* HEADER & MENU */}
         <div
           className="flex justify-between items-center 
           px-5 
-          
-          md:absolute md:top-0 md:left-0
-          w-full overflow-hidden 
-          z-50 bg-pc-darker 
-
-          sm:fixed sm:top-0 sm:left-0 sm:right-0  
+          max-w-4xl m-auto
+          fixed top-0
+          w-full z-50 
+          bg-pc-darker overflow-hidden
           "
         >
-          <div className="my-10">{header}</div>
+          <div className="my-5 md:my-10">{header}</div>
 
           <div className="md:flex hidden">
             <div className="menu-item mr-5">Snippets Code</div>
@@ -68,18 +70,20 @@ const Layout = ({ location, title, children }) => {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 d="M4 6h16M4 12h16M4 18h16"
               ></path>
             </svg>
           </div>
         </div>
 
-        <Bio />
-        <div className="m-0">{children}</div>
-        <footer className="text-pc-light">
+        {/* MAIN CONTENTS */}
+        <div className="mx-5 pt-5 md:pt-16">{children}</div>
+
+        {/* FOOTER */}
+        <footer className="text-pc-light mx-5">
           @ {new Date().getFullYear()}, Personal blog by {` `}
           <a
             href="https://www.gatsbyjs.com"
