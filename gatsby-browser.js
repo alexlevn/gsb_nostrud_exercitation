@@ -1,5 +1,8 @@
 import './global.css'
-import 'prismjs/themes/prism.css'
+// import 'prismjs/themes/prism.css'
+// require("prismjs/themes/prism-solarizedlight.css")
+import 'prismjs/themes/prism-tomorrow.css'
+
 
 // Custom css
 
