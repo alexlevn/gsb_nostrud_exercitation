@@ -1,5 +1,7 @@
 const path = require(`path`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
+const fs = require("fs")
+
 
 exports.createPages = async ({ graphql, actions, reporter }) => {
   const { createPage } = actions
@@ -138,8 +140,7 @@ exports.createSchemaCustomization = ({ actions }) => {
 //   }
 // }
 
-const path = require("path")
-const fs = require("fs")
+// const path = require("path")
 
 exports.onPreInit = () => {
   if (process.argv[2] === "build") {
