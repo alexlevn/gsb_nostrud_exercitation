@@ -1,14 +1,56 @@
+import { graphql } from 'gatsby'
 import * as React from 'react'
+import Layout from '../components/layout'
 
 const BlogPostTemplate = ({ data, location }) => {
+  // const post = data.markdownRemark
+  const siteTitle = data.site.siteMetadata.title
 
-  
   return (
-    <div>
-      Template:
-      <div>{JSON.stringify(data)}</div>
-    </div>
+    <Layout location={location} title={siteTitle}>
+      Template: hello
+    </Layout>
   )
 }
 
 export default BlogPostTemplate
+
+export const pageQuery = graphql`
+  query BlogPostBySlug(
+    $id: String!
+    $previousPostId: String
+    $nextPostId: String
+  ) {
+    site {
+      siteMetadata {
+        title
+      }
+    }
+    markdownRemark(fields: { id: { eq: $id } }) {
+      id
+      excerpt(pruneLength: 160)
+      html
+      frontmatter {
+        title
+        date(formatString: "MMMM DD, YYYY")
+        description
+      }
+    }
+    previous: markdownRemark(id: { eq: $previousPostId }) {
+      fields {
+        slug
+      }
+      frontmatter {
+        title
+      }
+    }
+    next: markdownRemark(id: { eq: $nextPostId }) {
+      fields {
+        slug
+      }
+      frontmatter {
+        title
+      }
+    }
+  }
+`

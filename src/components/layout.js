@@ -1,5 +1,4 @@
-import { Link, useStaticQuery, graphql } from 'gatsby'
-import { StaticImage } from 'gatsby-plugin-image'
+import { Link } from 'gatsby'
 import * as React from 'react'
 import Bio from './bio'
 
@@ -9,7 +8,7 @@ const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
   const isRootPath = location.pathname === rootPath
   let header
-  const [visibleMenu, setVisibleMenu] = React.useState(false)
+  // const [visibleMenu, setVisibleMenu] = React.useState(false)
 
   if (isRootPath) {
     header = (
@@ -17,7 +16,7 @@ const Layout = ({ location, title, children }) => {
         <Link to="/" className="text-pc-pink">
           {title}
         </Link>
-        {/* small slogan */}
+
         <div className="text-xs font-normal font-nunito text-center text-gray-300">
           == write
           <span className="text-red-500"> & </span>
@@ -39,19 +38,6 @@ const Layout = ({ location, title, children }) => {
         className="global-wrapper bg-pc-dark min-h-screen relative "
         data-is-root-path={isRootPath}
       >
-        {/* <div
-          className="flex justify-between items-center absolute m-auto left-0  top-0  w-full overflow-hidden z-50 bg-pc-darker mb-10 px-5
-        sm:fixed sm:top-0 sm:left-0 sm:right-0 sm:bottom-0 sm:z-0"
-        > */}
-
-        {/* <div
-          className="flex justify-between items-center 
-          absolute m-auto left-0  top-0  
-          w-full overflow-hidden 
-          z-50 bg-pc-darker mb-10 px-5
-          sm:fixed sm:top-0 sm:left-0 sm:right-0 sm:bottom-0 sm:z-0"
-        > */}
-
         <div
           className="flex justify-between items-center 
           px-5 
