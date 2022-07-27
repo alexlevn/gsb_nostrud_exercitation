@@ -1,58 +1,20 @@
 # README
 
-[published link](https://gsbnostrudexercitationmaster.gtsb.io/)
+Start blank project with command:
 
-- install tailwindcs
+```bash
+npm init gatsby
+```
+
+- select none of the default plugins.
+- clear all content from the index.js file.
+
+### Install Tailwind CSS
 
 ```bash
 npm install -D tailwindcss postcss autoprefixer gatsby-plugin-postcss
 npx tailwindcss init -p
-
 ```
 
-_gatsby-config.js_
-
-```js
-module.exports = {
-  plugins: [
-    'gatsby-plugin-postcss',
-    // ...
-  ],
-}
-```
-
-_tailwind.config.js_
-
-```js
-module.exports = {
-  content: [
-    './src/pages/**/*.{js,jsx,ts,tsx}',
-    './src/components/**/*.{js,jsx,ts,tsx}',
-  ],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-}
-```
-
-_./src/styles/global.css_
-
-```css
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-```
-create _gatsby-browser.js_
-
-```js
-import './src/styles/global.css'
-```
-
-
-- install plugins
-```bash
-
-yarn add gatsby-source-filesystem gatsby-transformer-remark
-```
+- [details](https://tailwindcss.com/docs/guides/gatsby)
+- [changes build folder](https://github.com/gatsbyjs/gatsby/issues/18975) (gatsby 2.0 ?)

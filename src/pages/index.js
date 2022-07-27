@@ -1,24 +1,53 @@
 import { graphql, Link } from 'gatsby'
 import * as React from 'react'
+import Bio from '../components/bio'
 import Layout from '../components/layout'
 
 const IndexPage = ({ data, location }) => {
-  // const siteTitle = data.site.siteMetadata.title
-  // const posts = data.allMarkdownRemark.edges
+  const siteTitle = data.site.siteMetadata?.title || `Title`
+  const posts = data.allMarkdownRemark.nodes
 
-  // console.log('data = ', data)
-
+  if (posts.length === 0) {
+    return (
+      <Layout location={location}>
+        Home Page !
+        <p>
+          No blog posts found. Add markdown posts to "content/blog" (or the
+          directory you specified for the "gatsby-source-filesystem" plugin in
+          gatsby-config.js).
+        </p>
+      </Layout>
+    )
+  }
   return (
-    <Layout title={'Overreacted'} location={location}>
-      <main className="m-5">
-        
-        <h1 className="text-xl font-normal no-underline text-red-400">
-          daily.dev
-        </h1>
-        <Link to = "/first-post">First Post</Link>
-        <Link to = "/sitemap/sitemap-index.xml">Site Map</Link>
+    <Layout location={location} title={siteTitle}>
+      <Bio />
 
-      </main>
+      {posts.map((post) => {
+        const title = post.frontmatter.title || post.fields.slug
+        return (
+          <div
+            key={post.fields.slug}
+            className="my-10 shadow-lg shadow-gray-800 rounded-md py-6 px-3 bg-pc-darker"
+          >
+            <div className="flex justify-between items-center ">
+              <Link to={post.fields.slug}>
+                <div className="text-pc-yellow font-medium md:text-2xl  font-sans hover:text-pc-pink cursor-pointer debug">
+                  {title}
+                </div>
+              </Link>
+
+              <div className="flex justify-items items-center ">
+                <div className="text-sm text-gray-600 whitespace-nowrap">
+                  {post.frontmatter.date}
+                </div>
+              </div>
+            </div>
+
+            <div className="mt-2 text-pc-light">{post.excerpt}</div>
+          </div>
+        )
+      })}
     </Layout>
   )
 }
@@ -32,38 +61,18 @@ export const pageQuery = graphql`
         title
       }
     }
-
-    
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+      nodes {
+        excerpt
+        fields {
+          slug
+        }
+        frontmatter {
+          date(formatString: "MMMM DD, YYYY")
+          title
+          description
+        }
+      }
+    }
   }
 `
-
-// ... what bugs?
-
-// export const pageQuery = graphql`
-//   query {
-//     site {
-//       siteMetadata {
-//         title
-//       }
-//     }
-
-//     allMarkdownRemark(sort: { fields: [frontmatter__date], order: DESC }) {
-//       edges {
-//         node {
-//           excerpt
-//           fields {
-//             slug
-//           }
-//           frontmatter {
-//             date(formatString: "MMMM DD, YYYY")
-//             title
-//             description
-//           }
-//         }
-//       }
-//     }
-//   }
-// `
-
-// http://localhost:8000/___graphql
-// http://localhost:3000/__graphql
