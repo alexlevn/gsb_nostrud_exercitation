@@ -89,7 +89,7 @@ const Layout = ({ location, title, children }) => {
         <div className="mx-5 pt-5 md:pt-16 overflow-hidden ">{children}</div>
 
         {/* FOOTER */}
-        <footer className="text-pc-light px-5 bg-pc-darker">
+        <footer className="text-pc-light px-5 bg-pc-darker mt-5">
           @ {new Date().getFullYear()}, Personal blog by {` `}
           <a
             href="https://www.gatsbyjs.com"
