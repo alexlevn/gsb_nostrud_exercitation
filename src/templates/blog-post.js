@@ -40,7 +40,7 @@ const BlogPostTemplate = ({ data, location }) => {
       {nav}
       <article className="text-pc-light">
         <header>
-          <h1 className="text-3xl font-medium text-pc-yellow">
+          <h1 className="text-3xl font-semibold text-pc-yellow font-mont">
             {post.frontmatter.title}
           </h1>
           <p>{post.frontmatter.date}</p>

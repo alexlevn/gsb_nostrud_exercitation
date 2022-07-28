@@ -67,10 +67,10 @@
 
   /*
   --color-primary: #005b99;
+  --color-heading: #1a202c;
+  --color-text-light: #4f5969;
   */
   --color-text: #2e353f;
-  --color-text-light: #4f5969;
-  --color-heading: #1a202c;
   --color-heading-black: black;
   --color-accent: #d1dce5;
 
@@ -78,6 +78,8 @@
   // customs colors
   ***/
   --color-primary: #efbb35;
+  --color-heading: #e29051;
+  --color-text-light: #abb2bf;
   /*
   
   --color-text: #F9EBD7;
