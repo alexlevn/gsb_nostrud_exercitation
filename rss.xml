@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[Just a blog writing & share tips and tricks for newbie dev.]]></description><link>https://alexle.info</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 28 Jul 2022 04:05:15 GMT</lastBuildDate><item><title><![CDATA[2 Steps how to create a landing page with tachyons and github page]]></title><description><![CDATA[“At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et…]]></description><link>https://alexle.info/create-a-landing-page-withi-github-page-tachyons/</link><guid isPermaLink="false">https://alexle.info/create-a-landing-page-withi-github-page-tachyons/</guid><pubDate>Thu, 28 Apr 2022 07:16:00 GMT</pubDate><content:encoded>&lt;p&gt;“At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga”.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Steps how to create a landing page with tachyons and github page]]></title><description><![CDATA[“At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et…]]></description><link>https://alexle.info/create-a-landing-page-withi-github-page-tachyons 2/</link><guid isPermaLink="false">https://alexle.info/create-a-landing-page-withi-github-page-tachyons 2/</guid><pubDate>Thu, 28 Apr 2022 07:16:00 GMT</pubDate><content:encoded>&lt;p&gt;“At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga”.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[Just a blog writing & share tips and tricks for newbie dev.]]></description><link>https://alexle.info</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 28 Jul 2022 04:29:48 GMT</lastBuildDate><item><title><![CDATA[Steps how to create a landing page with tachyons and github page]]></title><description><![CDATA[“At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et…]]></description><link>https://alexle.info/create-a-landing-page-withi-github-page-tachyons 2/</link><guid isPermaLink="false">https://alexle.info/create-a-landing-page-withi-github-page-tachyons 2/</guid><pubDate>Thu, 28 Apr 2022 07:16:00 GMT</pubDate><content:encoded>&lt;p&gt;“At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga”.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/gsb_nostrud_exercitation/static/737c8981c50d70c6e4316beb1bb41132/2c5fd/rose.png&quot;
+    href=&quot;/static/737c8981c50d70c6e4316beb1bb41132/2c5fd/rose.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -18,12 +18,12 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Rose Flower&quot;
         title=&quot;Rose Flower&quot;
-        src=&quot;/gsb_nostrud_exercitation/static/737c8981c50d70c6e4316beb1bb41132/f058b/rose.png&quot;
-        srcset=&quot;/gsb_nostrud_exercitation/static/737c8981c50d70c6e4316beb1bb41132/c26ae/rose.png 158w,
-/gsb_nostrud_exercitation/static/737c8981c50d70c6e4316beb1bb41132/6bdcf/rose.png 315w,
-/gsb_nostrud_exercitation/static/737c8981c50d70c6e4316beb1bb41132/f058b/rose.png 630w,
-/gsb_nostrud_exercitation/static/737c8981c50d70c6e4316beb1bb41132/40601/rose.png 945w,
-/gsb_nostrud_exercitation/static/737c8981c50d70c6e4316beb1bb41132/2c5fd/rose.png 1006w&quot;
+        src=&quot;/static/737c8981c50d70c6e4316beb1bb41132/f058b/rose.png&quot;
+        srcset=&quot;/static/737c8981c50d70c6e4316beb1bb41132/c26ae/rose.png 158w,
+/static/737c8981c50d70c6e4316beb1bb41132/6bdcf/rose.png 315w,
+/static/737c8981c50d70c6e4316beb1bb41132/f058b/rose.png 630w,
+/static/737c8981c50d70c6e4316beb1bb41132/40601/rose.png 945w,
+/static/737c8981c50d70c6e4316beb1bb41132/2c5fd/rose.png 1006w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -39,7 +39,7 @@
 &lt;span class=&quot;token keyword&quot;&gt;func&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
   fmt&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;Println&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&apos;Hello Post&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&apos;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Test CSS]]></title><description><![CDATA[If you do not have an account, you can register an account through the ref link <3. If you have already , continue down the steps below…]]></description><link>https://alexle.info/test css/</link><guid isPermaLink="false">https://alexle.info/test css/</guid><pubDate>Mon, 04 Apr 2022 07:16:00 GMT</pubDate><content:encoded>&lt;p&gt;If you do not have an account, you can register an account through the ref &lt;a href=&quot;https://m.do.co/c/a5600c1fbe6e&quot;&gt;link&lt;/a&gt; &amp;#x3C;3. If you have already , continue down the steps below.&lt;/p&gt;
+&lt;p&gt;Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[2 Steps how to create a landing page with tachyons and github page]]></title><description><![CDATA[“At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et…]]></description><link>https://alexle.info/create-a-landing-page-withi-github-page-tachyons/</link><guid isPermaLink="false">https://alexle.info/create-a-landing-page-withi-github-page-tachyons/</guid><pubDate>Thu, 28 Apr 2022 07:16:00 GMT</pubDate><content:encoded>&lt;p&gt;“At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga”.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Test CSS]]></title><description><![CDATA[If you do not have an account, you can register an account through the ref link <3. If you have already , continue down the steps below…]]></description><link>https://alexle.info/test css/</link><guid isPermaLink="false">https://alexle.info/test css/</guid><pubDate>Mon, 04 Apr 2022 07:16:00 GMT</pubDate><content:encoded>&lt;p&gt;If you do not have an account, you can register an account through the ref &lt;a href=&quot;https://m.do.co/c/a5600c1fbe6e&quot;&gt;link&lt;/a&gt; &amp;#x3C;3. If you have already , continue down the steps below.&lt;/p&gt;
 &lt;h2&gt;Step 1: Create new droplet&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Setup SSH&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Dashboard -&gt; Account -&gt; Security -&gt; SSH Keys&lt;/p&gt;
@@ -122,7 +122,7 @@ Or open this &lt;a href=&quot;https://cloud.digitalocean.com/account/security&qu
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/gsb_nostrud_exercitation/static/737c8981c50d70c6e4316beb1bb41132/2c5fd/step-1-create-droplet-result.png&quot;
+    href=&quot;/static/737c8981c50d70c6e4316beb1bb41132/2c5fd/step-1-create-droplet-result.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -135,12 +135,12 @@ Or open this &lt;a href=&quot;https://cloud.digitalocean.com/account/security&qu
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;SSH&quot;
         title=&quot;SSH&quot;
-        src=&quot;/gsb_nostrud_exercitation/static/737c8981c50d70c6e4316beb1bb41132/f058b/step-1-create-droplet-result.png&quot;
-        srcset=&quot;/gsb_nostrud_exercitation/static/737c8981c50d70c6e4316beb1bb41132/c26ae/step-1-create-droplet-result.png 158w,
-/gsb_nostrud_exercitation/static/737c8981c50d70c6e4316beb1bb41132/6bdcf/step-1-create-droplet-result.png 315w,
-/gsb_nostrud_exercitation/static/737c8981c50d70c6e4316beb1bb41132/f058b/step-1-create-droplet-result.png 630w,
-/gsb_nostrud_exercitation/static/737c8981c50d70c6e4316beb1bb41132/40601/step-1-create-droplet-result.png 945w,
-/gsb_nostrud_exercitation/static/737c8981c50d70c6e4316beb1bb41132/2c5fd/step-1-create-droplet-result.png 1006w&quot;
+        src=&quot;/static/737c8981c50d70c6e4316beb1bb41132/f058b/step-1-create-droplet-result.png&quot;
+        srcset=&quot;/static/737c8981c50d70c6e4316beb1bb41132/c26ae/step-1-create-droplet-result.png 158w,
+/static/737c8981c50d70c6e4316beb1bb41132/6bdcf/step-1-create-droplet-result.png 315w,
+/static/737c8981c50d70c6e4316beb1bb41132/f058b/step-1-create-droplet-result.png 630w,
+/static/737c8981c50d70c6e4316beb1bb41132/40601/step-1-create-droplet-result.png 945w,
+/static/737c8981c50d70c6e4316beb1bb41132/2c5fd/step-1-create-droplet-result.png 1006w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -189,7 +189,7 @@ Esc -&gt; :q -&gt; Quit the Vi Editor&lt;/p&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/gsb_nostrud_exercitation/static/ae4a0b795689aeb2c062b78ec546d058/05244/step-3-apache.png&quot;
+    href=&quot;/static/ae4a0b795689aeb2c062b78ec546d058/05244/step-3-apache.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -202,13 +202,13 @@ Esc -&gt; :q -&gt; Quit the Vi Editor&lt;/p&gt;
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Apache&quot;
         title=&quot;Apache&quot;
-        src=&quot;/gsb_nostrud_exercitation/static/ae4a0b795689aeb2c062b78ec546d058/f058b/step-3-apache.png&quot;
-        srcset=&quot;/gsb_nostrud_exercitation/static/ae4a0b795689aeb2c062b78ec546d058/c26ae/step-3-apache.png 158w,
-/gsb_nostrud_exercitation/static/ae4a0b795689aeb2c062b78ec546d058/6bdcf/step-3-apache.png 315w,
-/gsb_nostrud_exercitation/static/ae4a0b795689aeb2c062b78ec546d058/f058b/step-3-apache.png 630w,
-/gsb_nostrud_exercitation/static/ae4a0b795689aeb2c062b78ec546d058/40601/step-3-apache.png 945w,
-/gsb_nostrud_exercitation/static/ae4a0b795689aeb2c062b78ec546d058/78612/step-3-apache.png 1260w,
-/gsb_nostrud_exercitation/static/ae4a0b795689aeb2c062b78ec546d058/05244/step-3-apache.png 1752w&quot;
+        src=&quot;/static/ae4a0b795689aeb2c062b78ec546d058/f058b/step-3-apache.png&quot;
+        srcset=&quot;/static/ae4a0b795689aeb2c062b78ec546d058/c26ae/step-3-apache.png 158w,
+/static/ae4a0b795689aeb2c062b78ec546d058/6bdcf/step-3-apache.png 315w,
+/static/ae4a0b795689aeb2c062b78ec546d058/f058b/step-3-apache.png 630w,
+/static/ae4a0b795689aeb2c062b78ec546d058/40601/step-3-apache.png 945w,
+/static/ae4a0b795689aeb2c062b78ec546d058/78612/step-3-apache.png 1260w,
+/static/ae4a0b795689aeb2c062b78ec546d058/05244/step-3-apache.png 1752w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -234,7 +234,7 @@ Esc -&gt; :q -&gt; Quit the Vi Editor&lt;/p&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/gsb_nostrud_exercitation/static/964bb7512a4e44e2018dd37dd2cba3f0/51dd6/step-4-php.png&quot;
+    href=&quot;/static/964bb7512a4e44e2018dd37dd2cba3f0/51dd6/step-4-php.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -247,13 +247,13 @@ Esc -&gt; :q -&gt; Quit the Vi Editor&lt;/p&gt;
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;PHP&quot;
         title=&quot;PHP&quot;
-        src=&quot;/gsb_nostrud_exercitation/static/964bb7512a4e44e2018dd37dd2cba3f0/f058b/step-4-php.png&quot;
-        srcset=&quot;/gsb_nostrud_exercitation/static/964bb7512a4e44e2018dd37dd2cba3f0/c26ae/step-4-php.png 158w,
-/gsb_nostrud_exercitation/static/964bb7512a4e44e2018dd37dd2cba3f0/6bdcf/step-4-php.png 315w,
-/gsb_nostrud_exercitation/static/964bb7512a4e44e2018dd37dd2cba3f0/f058b/step-4-php.png 630w,
-/gsb_nostrud_exercitation/static/964bb7512a4e44e2018dd37dd2cba3f0/40601/step-4-php.png 945w,
-/gsb_nostrud_exercitation/static/964bb7512a4e44e2018dd37dd2cba3f0/78612/step-4-php.png 1260w,
-/gsb_nostrud_exercitation/static/964bb7512a4e44e2018dd37dd2cba3f0/51dd6/step-4-php.png 1952w&quot;
+        src=&quot;/static/964bb7512a4e44e2018dd37dd2cba3f0/f058b/step-4-php.png&quot;
+        srcset=&quot;/static/964bb7512a4e44e2018dd37dd2cba3f0/c26ae/step-4-php.png 158w,
+/static/964bb7512a4e44e2018dd37dd2cba3f0/6bdcf/step-4-php.png 315w,
+/static/964bb7512a4e44e2018dd37dd2cba3f0/f058b/step-4-php.png 630w,
+/static/964bb7512a4e44e2018dd37dd2cba3f0/40601/step-4-php.png 945w,
+/static/964bb7512a4e44e2018dd37dd2cba3f0/78612/step-4-php.png 1260w,
+/static/964bb7512a4e44e2018dd37dd2cba3f0/51dd6/step-4-php.png 1952w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -321,7 +321,7 @@ Wait for server hours and try: &lt;a href=&quot;http://example.com&quot;&gt;http
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/gsb_nostrud_exercitation/static/0e60f0523a42e30e2ecb2cecb18e34e7/cab8c/step-8-add-domain.png&quot;
+    href=&quot;/static/0e60f0523a42e30e2ecb2cecb18e34e7/cab8c/step-8-add-domain.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -334,11 +334,11 @@ Wait for server hours and try: &lt;a href=&quot;http://example.com&quot;&gt;http
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Add you domain&quot;
         title=&quot;Add you domain&quot;
-        src=&quot;/gsb_nostrud_exercitation/static/0e60f0523a42e30e2ecb2cecb18e34e7/f058b/step-8-add-domain.png&quot;
-        srcset=&quot;/gsb_nostrud_exercitation/static/0e60f0523a42e30e2ecb2cecb18e34e7/c26ae/step-8-add-domain.png 158w,
-/gsb_nostrud_exercitation/static/0e60f0523a42e30e2ecb2cecb18e34e7/6bdcf/step-8-add-domain.png 315w,
-/gsb_nostrud_exercitation/static/0e60f0523a42e30e2ecb2cecb18e34e7/f058b/step-8-add-domain.png 630w,
-/gsb_nostrud_exercitation/static/0e60f0523a42e30e2ecb2cecb18e34e7/cab8c/step-8-add-domain.png 744w&quot;
+        src=&quot;/static/0e60f0523a42e30e2ecb2cecb18e34e7/f058b/step-8-add-domain.png&quot;
+        srcset=&quot;/static/0e60f0523a42e30e2ecb2cecb18e34e7/c26ae/step-8-add-domain.png 158w,
+/static/0e60f0523a42e30e2ecb2cecb18e34e7/6bdcf/step-8-add-domain.png 315w,
+/static/0e60f0523a42e30e2ecb2cecb18e34e7/f058b/step-8-add-domain.png 630w,
+/static/0e60f0523a42e30e2ecb2cecb18e34e7/cab8c/step-8-add-domain.png 744w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -539,7 +539,7 @@ firm-textured, round yolk that is bright orange-red in color.&lt;/p&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/gsb_nostrud_exercitation/static/8058f3f26913fea3b6a89a73344fe94a/e1596/salty_egg.jpg&quot;
+    href=&quot;/static/8058f3f26913fea3b6a89a73344fe94a/e1596/salty_egg.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -552,13 +552,13 @@ firm-textured, round yolk that is bright orange-red in color.&lt;/p&gt;
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Chinese Salty Egg&quot;
         title=&quot;Chinese Salty Egg&quot;
-        src=&quot;/gsb_nostrud_exercitation/static/8058f3f26913fea3b6a89a73344fe94a/828fb/salty_egg.jpg&quot;
-        srcset=&quot;/gsb_nostrud_exercitation/static/8058f3f26913fea3b6a89a73344fe94a/ff44c/salty_egg.jpg 158w,
-/gsb_nostrud_exercitation/static/8058f3f26913fea3b6a89a73344fe94a/a6688/salty_egg.jpg 315w,
-/gsb_nostrud_exercitation/static/8058f3f26913fea3b6a89a73344fe94a/828fb/salty_egg.jpg 630w,
-/gsb_nostrud_exercitation/static/8058f3f26913fea3b6a89a73344fe94a/0ede0/salty_egg.jpg 945w,
-/gsb_nostrud_exercitation/static/8058f3f26913fea3b6a89a73344fe94a/3ac88/salty_egg.jpg 1260w,
-/gsb_nostrud_exercitation/static/8058f3f26913fea3b6a89a73344fe94a/e1596/salty_egg.jpg 2048w&quot;
+        src=&quot;/static/8058f3f26913fea3b6a89a73344fe94a/828fb/salty_egg.jpg&quot;
+        srcset=&quot;/static/8058f3f26913fea3b6a89a73344fe94a/ff44c/salty_egg.jpg 158w,
+/static/8058f3f26913fea3b6a89a73344fe94a/a6688/salty_egg.jpg 315w,
+/static/8058f3f26913fea3b6a89a73344fe94a/828fb/salty_egg.jpg 630w,
+/static/8058f3f26913fea3b6a89a73344fe94a/0ede0/salty_egg.jpg 945w,
+/static/8058f3f26913fea3b6a89a73344fe94a/3ac88/salty_egg.jpg 1260w,
+/static/8058f3f26913fea3b6a89a73344fe94a/e1596/salty_egg.jpg 2048w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -767,7 +767,7 @@ __double underscores__&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/gsb_nostrud_exercitation/static/737c8981c50d70c6e4316beb1bb41132/2c5fd/step-1-create-droplet-result.png&quot;
+    href=&quot;/static/737c8981c50d70c6e4316beb1bb41132/2c5fd/step-1-create-droplet-result.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -780,12 +780,12 @@ __double underscores__&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;SSH&quot;
         title=&quot;SSH&quot;
-        src=&quot;/gsb_nostrud_exercitation/static/737c8981c50d70c6e4316beb1bb41132/f058b/step-1-create-droplet-result.png&quot;
-        srcset=&quot;/gsb_nostrud_exercitation/static/737c8981c50d70c6e4316beb1bb41132/c26ae/step-1-create-droplet-result.png 158w,
-/gsb_nostrud_exercitation/static/737c8981c50d70c6e4316beb1bb41132/6bdcf/step-1-create-droplet-result.png 315w,
-/gsb_nostrud_exercitation/static/737c8981c50d70c6e4316beb1bb41132/f058b/step-1-create-droplet-result.png 630w,
-/gsb_nostrud_exercitation/static/737c8981c50d70c6e4316beb1bb41132/40601/step-1-create-droplet-result.png 945w,
-/gsb_nostrud_exercitation/static/737c8981c50d70c6e4316beb1bb41132/2c5fd/step-1-create-droplet-result.png 1006w&quot;
+        src=&quot;/static/737c8981c50d70c6e4316beb1bb41132/f058b/step-1-create-droplet-result.png&quot;
+        srcset=&quot;/static/737c8981c50d70c6e4316beb1bb41132/c26ae/step-1-create-droplet-result.png 158w,
+/static/737c8981c50d70c6e4316beb1bb41132/6bdcf/step-1-create-droplet-result.png 315w,
+/static/737c8981c50d70c6e4316beb1bb41132/f058b/step-1-create-droplet-result.png 630w,
+/static/737c8981c50d70c6e4316beb1bb41132/40601/step-1-create-droplet-result.png 945w,
+/static/737c8981c50d70c6e4316beb1bb41132/2c5fd/step-1-create-droplet-result.png 1006w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -834,7 +834,7 @@ Esc -&gt; :q -&gt; Quit the Vi Editor&lt;/p&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/gsb_nostrud_exercitation/static/ae4a0b795689aeb2c062b78ec546d058/05244/step-3-apache.png&quot;
+    href=&quot;/static/ae4a0b795689aeb2c062b78ec546d058/05244/step-3-apache.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -847,13 +847,13 @@ Esc -&gt; :q -&gt; Quit the Vi Editor&lt;/p&gt;
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Apache&quot;
         title=&quot;Apache&quot;
-        src=&quot;/gsb_nostrud_exercitation/static/ae4a0b795689aeb2c062b78ec546d058/f058b/step-3-apache.png&quot;
-        srcset=&quot;/gsb_nostrud_exercitation/static/ae4a0b795689aeb2c062b78ec546d058/c26ae/step-3-apache.png 158w,
-/gsb_nostrud_exercitation/static/ae4a0b795689aeb2c062b78ec546d058/6bdcf/step-3-apache.png 315w,
-/gsb_nostrud_exercitation/static/ae4a0b795689aeb2c062b78ec546d058/f058b/step-3-apache.png 630w,
-/gsb_nostrud_exercitation/static/ae4a0b795689aeb2c062b78ec546d058/40601/step-3-apache.png 945w,
-/gsb_nostrud_exercitation/static/ae4a0b795689aeb2c062b78ec546d058/78612/step-3-apache.png 1260w,
-/gsb_nostrud_exercitation/static/ae4a0b795689aeb2c062b78ec546d058/05244/step-3-apache.png 1752w&quot;
+        src=&quot;/static/ae4a0b795689aeb2c062b78ec546d058/f058b/step-3-apache.png&quot;
+        srcset=&quot;/static/ae4a0b795689aeb2c062b78ec546d058/c26ae/step-3-apache.png 158w,
+/static/ae4a0b795689aeb2c062b78ec546d058/6bdcf/step-3-apache.png 315w,
+/static/ae4a0b795689aeb2c062b78ec546d058/f058b/step-3-apache.png 630w,
+/static/ae4a0b795689aeb2c062b78ec546d058/40601/step-3-apache.png 945w,
+/static/ae4a0b795689aeb2c062b78ec546d058/78612/step-3-apache.png 1260w,
+/static/ae4a0b795689aeb2c062b78ec546d058/05244/step-3-apache.png 1752w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -879,7 +879,7 @@ Esc -&gt; :q -&gt; Quit the Vi Editor&lt;/p&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/gsb_nostrud_exercitation/static/964bb7512a4e44e2018dd37dd2cba3f0/51dd6/step-4-php.png&quot;
+    href=&quot;/static/964bb7512a4e44e2018dd37dd2cba3f0/51dd6/step-4-php.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -892,13 +892,13 @@ Esc -&gt; :q -&gt; Quit the Vi Editor&lt;/p&gt;
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;PHP&quot;
         title=&quot;PHP&quot;
-        src=&quot;/gsb_nostrud_exercitation/static/964bb7512a4e44e2018dd37dd2cba3f0/f058b/step-4-php.png&quot;
-        srcset=&quot;/gsb_nostrud_exercitation/static/964bb7512a4e44e2018dd37dd2cba3f0/c26ae/step-4-php.png 158w,
-/gsb_nostrud_exercitation/static/964bb7512a4e44e2018dd37dd2cba3f0/6bdcf/step-4-php.png 315w,
-/gsb_nostrud_exercitation/static/964bb7512a4e44e2018dd37dd2cba3f0/f058b/step-4-php.png 630w,
-/gsb_nostrud_exercitation/static/964bb7512a4e44e2018dd37dd2cba3f0/40601/step-4-php.png 945w,
-/gsb_nostrud_exercitation/static/964bb7512a4e44e2018dd37dd2cba3f0/78612/step-4-php.png 1260w,
-/gsb_nostrud_exercitation/static/964bb7512a4e44e2018dd37dd2cba3f0/51dd6/step-4-php.png 1952w&quot;
+        src=&quot;/static/964bb7512a4e44e2018dd37dd2cba3f0/f058b/step-4-php.png&quot;
+        srcset=&quot;/static/964bb7512a4e44e2018dd37dd2cba3f0/c26ae/step-4-php.png 158w,
+/static/964bb7512a4e44e2018dd37dd2cba3f0/6bdcf/step-4-php.png 315w,
+/static/964bb7512a4e44e2018dd37dd2cba3f0/f058b/step-4-php.png 630w,
+/static/964bb7512a4e44e2018dd37dd2cba3f0/40601/step-4-php.png 945w,
+/static/964bb7512a4e44e2018dd37dd2cba3f0/78612/step-4-php.png 1260w,
+/static/964bb7512a4e44e2018dd37dd2cba3f0/51dd6/step-4-php.png 1952w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -966,7 +966,7 @@ Wait for server hours and try: &lt;a href=&quot;http://example.com&quot;&gt;http
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/gsb_nostrud_exercitation/static/0e60f0523a42e30e2ecb2cecb18e34e7/cab8c/step-8-add-domain.png&quot;
+    href=&quot;/static/0e60f0523a42e30e2ecb2cecb18e34e7/cab8c/step-8-add-domain.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -979,11 +979,11 @@ Wait for server hours and try: &lt;a href=&quot;http://example.com&quot;&gt;http
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Add you domain&quot;
         title=&quot;Add you domain&quot;
-        src=&quot;/gsb_nostrud_exercitation/static/0e60f0523a42e30e2ecb2cecb18e34e7/f058b/step-8-add-domain.png&quot;
-        srcset=&quot;/gsb_nostrud_exercitation/static/0e60f0523a42e30e2ecb2cecb18e34e7/c26ae/step-8-add-domain.png 158w,
-/gsb_nostrud_exercitation/static/0e60f0523a42e30e2ecb2cecb18e34e7/6bdcf/step-8-add-domain.png 315w,
-/gsb_nostrud_exercitation/static/0e60f0523a42e30e2ecb2cecb18e34e7/f058b/step-8-add-domain.png 630w,
-/gsb_nostrud_exercitation/static/0e60f0523a42e30e2ecb2cecb18e34e7/cab8c/step-8-add-domain.png 744w&quot;
+        src=&quot;/static/0e60f0523a42e30e2ecb2cecb18e34e7/f058b/step-8-add-domain.png&quot;
+        srcset=&quot;/static/0e60f0523a42e30e2ecb2cecb18e34e7/c26ae/step-8-add-domain.png 158w,
+/static/0e60f0523a42e30e2ecb2cecb18e34e7/6bdcf/step-8-add-domain.png 315w,
+/static/0e60f0523a42e30e2ecb2cecb18e34e7/f058b/step-8-add-domain.png 630w,
+/static/0e60f0523a42e30e2ecb2cecb18e34e7/cab8c/step-8-add-domain.png 744w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
