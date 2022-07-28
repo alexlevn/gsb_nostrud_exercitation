@@ -14,7 +14,8 @@ module.exports = {
     //   'pc-pink': '#FFA7C4',
     // },
     colors: ({ colors }) => ({
-      'pc-darker': '#191a21',
+      // 'pc-darker': '#191a21',
+      'pc-darker': '#16171c',
       'pc-dark': '#1F2028',
       'pc-light': '#F9EBD7',
       'cc-yellow': '#CAF17C',
