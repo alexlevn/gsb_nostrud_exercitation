@@ -2,6 +2,7 @@ import { graphql, Link } from 'gatsby'
 import * as React from 'react'
 import Bio from '../components/bio'
 import Layout from '../components/layout'
+import Seo from '../components/seo'
 
 const IndexPage = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
@@ -21,6 +22,7 @@ const IndexPage = ({ data, location }) => {
   }
   return (
     <Layout location={location} title={siteTitle}>
+      <Seo title="All posts" />
       <Bio />
 
       {posts.map((post) => {
