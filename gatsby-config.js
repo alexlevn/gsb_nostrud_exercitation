@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: '/gsb_nostrud_exercitation',
+  pathPrefix_del: '/gsb_nostrud_exercitation',
   siteMetadata: {
     title: `boy-Over-9`,
     author: {
