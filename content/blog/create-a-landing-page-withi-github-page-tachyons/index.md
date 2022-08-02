@@ -1,6 +1,6 @@
 ---
 title: Create a landing page with tailwind and github page
-date: '2022-04-28T07:16:00.284Z'
+date: '2022-08-02T07:09:00.284Z'
 description: 'Steps how to create a landing page with tailwind and github page'
 ---
 
